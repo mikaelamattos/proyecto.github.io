@@ -1,0 +1,37 @@
+$color1: #4b7be5;
+$color2: #06283d;
+$color3: #ffffff;
+$font: 1rem;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow: auto;
+}
+
+#menu a {
+  font-size: 1rem;
+  color: $color2;
+}
+
+.p {
+  background-color: $color1;
+  color: $color3;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding: 2px;
+}
+.h1 {
+  color: $color1;
+  padding-top: $font;
+  border-top: $font;
+}
+.carousel-inner {
+  max-height: 39rem;
+}
+
+.button {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
